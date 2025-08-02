@@ -18,7 +18,7 @@ function Navbar(){
             <img onClick={()=> setShowmenu(true)}   src={assets.menu_icon} className="md:hidden w-7 lg:hidden sm:hidden cursor-pointer" alt="" />
         </div>
         {/* mobile menu */}
-        <div  className={`md:hidden lg:hidden sm:hidden ${Showmenu ? 'fixed w-full': "h-0 w-0 " }right-0 top-0 bottom-0 overflow-hidden bg-white transtion-all`}>
+        <div  className={`md:hidden lg:hidden sm:hidden ${Showmenu ? 'fixed w-full': "h-0 w-0 " } right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}>
             <div className=" justify-end p-6 cursor-pointer flex">
                 <img  onClick={()=> setShowmenu(false)}  src={assets.cross_icon} alt="" />
             </div>
